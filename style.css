@@ -1,0 +1,37 @@
+body{
+    overflow: hidden;
+}
+
+#pointOfInterest{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+}
+
+#innerBox{
+    Position: absolute;
+    width: 140px;
+    height: 140px;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 8;
+}
+
+#outerBox{
+    Position: absolute;
+    width: 360px;
+    height: 360px;
+    margin-left: -160px;
+    margin-top: -160px;
+    z-index: 6;
+}
+
+#farBox{
+    Position: absolute;
+    width: 380px;
+    height: 380px;
+    margin-left: -170px;
+    margin-top: -170px;
+    z-index: 2;
+}
